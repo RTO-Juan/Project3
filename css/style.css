@@ -1,49 +1,34 @@
 body {
-  margin: 0; 
   color: white;
   background-color: #202020;
-  font-family: "Times New Roman", Times, serif;
-}
-
-html, body {
-  height: 100%;
 }
 
 main {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 800px; 
+  margin: 0 auto; 
   text-align: left;
-  padding: 40px 20px 20px 20px;
 }
 
-p {
+p{
   text-align: center;
   color: white;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 20px auto;
-}
-
 nav {
-  background: white;
+  background: #222;
+  text-align: left;
   padding: 1rem;
   margin-bottom: 20px;
   width: 100%;
 }
-
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: flex-end;
-  align-items: right;
+  justify-content: flex-end; 
+  align-items: center;
   gap: 40px;
   padding: 0;
-  margin: 0 auto;
-  max-width: 800px;
+  margin: 0 80px 0 0;
 }
 
 nav ul li {
@@ -55,18 +40,18 @@ nav ul li a {
   text-decoration: none;
   font-size: 1.5rem;
 }
-
-h1, h2, h3 {
-  text-align: center;
+h1, h2, h3{
+   text-align: center
+  
 }
 
-.plumbing img {
+.plumbing img{
   display: inline-block;
   width: 200px;
 }
 
-.cat-images {
-  display: flex;
+.cat-images{
+  display:flex;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -75,7 +60,7 @@ h1, h2, h3 {
   width: 250px;
   height: auto;
   gap: 0px;
-}
+}   
 
 .plumbing video {
   display: block;
@@ -84,18 +69,19 @@ h1, h2, h3 {
   height: auto;
 }
 
+
 .resume {
   text-align: left;
   padding: 20px;
 }
 
-.aatrox-image img {
+.aatrox-image img{
   width: 500px;
   height: auto;
   gap: 0px;
 }
 
-.runes {
+.runes{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -104,12 +90,13 @@ h1, h2, h3 {
   gap: 20px;
 }
 
+
 .rune-column {
   width: 45%;
 }
 
 .rune-column h3 {
-  text-align: left;
+  text-align: left; 
 }
 
 .rune-column ul {
@@ -120,29 +107,6 @@ h1, h2, h3 {
 .rune-column li {
   text-align: left;
 }
-
-@media (min-width: 600px) {
-  body {
-    font-size: 1.1rem;
-  }
-
-  .aatrox-image img {
-    width: 90%;
-  }
-
-  .rune-column {
-    width: 48%;
-  }
-
-  nav ul {
-    gap: 20px;
-  }
-
-  main {
-    padding: 40px 20px 20px 20px;
-  }
-}
-
 @media (min-width: 900px) {
   body {
     font-size: 1.25rem;

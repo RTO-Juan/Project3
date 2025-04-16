@@ -1,21 +1,13 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Simple Map</title>
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="utf-8">
-    <style>
-      #map {
-        height: 100%;
-      }
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
     <nav>
       <ul>
         <li><a href="index.html">My Homepage</a></li>
@@ -25,21 +17,19 @@
       </ul>  
     </nav>
   </header>
-    <main>
-    <h1>Chicago Landmarks</h1>
+
+  <main>
+    <h1>Locations in Chicago</h1>
+    <div class="buttons">
+      <button onclick="panTo('park')">Millennium Park</button>
+      <button onclick="panTo('pier')">Navy Pier</button>
+      <button onclick="panTo('tower')">Willis Tower</button>
+    </div>
     <div id="map"></div>
   </main>
-    <div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMGVWdIEZd-BF9UFx0JAuMdcuC3lOr_Zg&callback=initMap"
-    async defer></script>
-  </body>
+  <script src="script.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMGVWdIEZd-BF9UFx0JAuMdcuC3lOr_Zg&callback=initMap">
+  </script>
+</body>
 </html>

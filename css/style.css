@@ -107,6 +107,29 @@ h1, h2, h3{
 .rune-column li {
   text-align: left;
 }
+
+@media (min-width: 600px) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  .aatrox-image img {
+    width: 90%;
+  }
+
+  .rune-column {
+    width: 48%;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+
+  main {
+    padding: 40px 20px 20px 20px;
+  }
+}
+
 @media (min-width: 900px) {
   body {
     font-size: 1.25rem;

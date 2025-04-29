@@ -1,7 +1,6 @@
 body {
   color: white;
   background-color: #202020;
-  font-family: "Times New Roman", Times, serif;
 }
 
 main {
@@ -10,12 +9,46 @@ main {
   text-align: left;
 }
 
+p{
+  text-align: center;
+  color: white;
+}
+
+nav {
+  background: #222;
+  text-align: left;
+  padding: 1rem;
+  margin-bottom: 20px;
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0 80px 0 0;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+h1, h2, h3{
+   text-align: center
+  
+}
 
 .plumbing img{
   display: inline-block;
   width: 200px;
 }
-
 
 .cat-images{
   display:flex;
@@ -29,12 +62,18 @@ main {
   gap: 0px;
 }   
 
+.plumbing video {
+  display: block;
+  margin: 10px auto;
+  width: 200px;
+  height: auto;
+}
+
 
 .resume {
   text-align: left;
   padding: 20px;
 }
-
 
 .aatrox-image img{
   width: 500px;
@@ -49,4 +88,22 @@ main {
   max-width: 600px;
   margin: 0 auto;
   gap: 20px;
+}
+
+
+.rune-column {
+  width: 45%;
+}
+
+.rune-column h3 {
+  text-align: left; 
+}
+
+.rune-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.rune-column li {
+  text-align: left;
 }

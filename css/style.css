@@ -9,3 +9,44 @@ main {
   margin: 0 auto; 
   text-align: left;
 }
+
+
+.plumbing img{
+  display: inline-block;
+  width: 200px;
+}
+
+
+.cat-images{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cat-images img {
+  width: 250px;
+  height: auto;
+  gap: 0px;
+}   
+
+
+.resume {
+  text-align: left;
+  padding: 20px;
+}
+
+
+.aatrox-image img{
+  width: 500px;
+  height: auto;
+  gap: 0px;
+}
+
+.runes{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 20px;
+}

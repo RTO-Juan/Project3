@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 
 nav {
-  background: #000;
+  background: #202020;
   padding: 1rem;
   margin-bottom: 20px;
   width: 100%;
@@ -56,6 +56,15 @@ nav ul li a {
   height: auto;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.center-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 .plumbing video {

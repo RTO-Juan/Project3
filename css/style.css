@@ -22,7 +22,7 @@ h1, h2, h3 {
 
 
 nav {
-  background: #000;
+  background: #202020;
   text-align: left;
   padding: 1rem;
   margin-bottom: 20px;
@@ -55,7 +55,20 @@ img {
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
 
+.image-row img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
 
 .inline-img {
   display: inline-block;

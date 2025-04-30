@@ -1,9 +1,9 @@
 let map;
 
 const locations = {
-  park: { lat: 41.8826, lng: -87.6226 },   // Millennium Park
-  pier: { lat: 41.8916, lng: -87.6079 },   // Navy Pier
-  tower: { lat: 41.8789, lng: -87.6359 }   // Willis Tower
+  park: { lat: 41.8826, lng: -87.6226 },   
+  pier: { lat: 41.8916, lng: -87.6079 },   
+  tower: { lat: 41.8789, lng: -87.6359 }   
 };
 
 function initMap() {

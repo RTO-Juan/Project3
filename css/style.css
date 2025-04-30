@@ -109,11 +109,10 @@ nav ul li a {
   text-align: left;
 }
 
-#map-container {
+#map {
   width: 100%;
   height: 500px;
 }
-
 .map-buttons {
   text-align: center;
   margin-top: 20px;

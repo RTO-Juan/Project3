@@ -82,6 +82,18 @@ h1, h2, h3 {
   height: auto;
   gap: 0px;
 }
+.rune-image {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.rune-image img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
 
 .runes {
   display: flex;

@@ -16,8 +16,13 @@ p {
   color: white;
 }
 
+h1, h2, h3 {
+  text-align: center;
+}
+
+
 nav {
-  background: #202020;; 
+  background: #000;
   text-align: left;
   padding: 1rem;
   margin-bottom: 20px;
@@ -27,15 +32,11 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: flex-end; 
+  justify-content: flex-end;
   align-items: center;
   gap: 40px;
   padding: 0;
   margin: 0 40px 0 0;
-}
-
-nav ul li {
-  margin: 0;
 }
 
 nav ul li a {
@@ -44,26 +45,26 @@ nav ul li a {
   font-size: 1.5rem;
 }
 
-h1, h2, h3 {
-  text-align: center;
+
+img {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
-.plumbing img {
+
+.inline-img {
   display: inline-block;
   width: 200px;
+  margin: 0;
+  box-shadow: none;
+  border-radius: 0;
 }
 
-.cat-images {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.cat-images img {
-  width: 250px;
-  height: auto;
-  gap: 0px;
-}
 
 .plumbing video {
   display: block;
@@ -78,21 +79,7 @@ h1, h2, h3 {
 }
 
 .aatrox-image img {
-  width: 500px;
-  height: auto;
-  gap: 0px;
-}
-.rune-image {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.rune-image img {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  max-width: 600px;
 }
 
 .runes {
@@ -108,26 +95,40 @@ h1, h2, h3 {
   width: 45%;
 }
 
-.rune-column h3 {
-  text-align: left;
-}
-
-.rune-column ul {
-  list-style: none;
-  padding: 0;
-}
-
+.rune-column h3,
 .rune-column li {
   text-align: left;
+}
+
+
+#map-container {
+  width: 100%;
+  height: 500px;
+}
+
+.map-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.map-buttons button {
+  margin: 0 10px;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.map-buttons button:hover {
+  background-color: #666;
 }
 
 @media (min-width: 600px) {
   body {
     font-size: 1.1rem;
-  }
-
-  .aatrox-image img {
-    width: 90%;
   }
 
   .rune-column {
@@ -148,11 +149,6 @@ h1, h2, h3 {
     font-size: 1.25rem;
   }
 
-  .aatrox-image img {
-    width: 100%;
-    max-width: 600px;
-  }
-
   .runes {
     gap: 40px;
   }
@@ -160,30 +156,4 @@ h1, h2, h3 {
   main {
     padding: 40px 20px 20px 20px;
   }
-}
-
-#map-container {
-  width: 100%;
-  height: 500px;
-}
-
-.map-buttons {
-  text-align: center;
-  margin-top: 20px;
-}
-
-
-.map-buttons button {
-  margin: 0 10px;
-  padding: 0.5em 1em;
-  font-size: 1rem;
-  background-color: #444;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.map-buttons button:hover {
-  background-color: #666;
 }
